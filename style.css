@@ -1,0 +1,74 @@
+/* inserimento dell'immagine di background e ridimensionamento */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+/* creazione quadrato che contiene le informazioni della pagina */
+#quadrato{
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 100px;  
+}
+/* centrare il logo e la scritta dell'intestazione + settaggio colore dell'intestazione */
+header{
+    text-align: center;
+}
+img{
+    width: 175px;
+    height: fit-content;
+}
+header > h1{
+    color: #00dd00;
+    margin: auto;
+}
+/* centrare i bottoni + colore del background dello spazio di navigazione */
+nav{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: #00dd00;
+}
+/* piccole variazione ai margini per abbellire */
+main{
+    margin: 10px;
+}
+section{
+    margin-top: 15px;
+}
+/* colore delle scritte dentro gli span + piccole variazioni ai margini per abbellire */
+span{
+    color: white;
+    margin: 10px 5px 10px;
+}
+/* grandezza del font per il nome dei monopattini */
+.nomeM{
+    font-size: 25px;
+}
+/* grandezza del rettangolo che indica la carica */
+.statocarica{
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+}
+/* i vari stati di carica e relativi colori */
+.statocarica.carico{
+    width: 500px;
+    background-color: green;
+}
+.statocarica.medio{
+    width: 300px;
+    background-color: orange;
+}
+.statocarica.scarico{
+    width: 150px;
+    background-color: red;
+}
+/* ho usato il box-sizing: border-box per mantenere invariato il quadrato che contiene la pagina */
+*{
+    box-sizing: border-box;
+}
+
+

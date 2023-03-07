@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title></title>
+    </head>
+    <body>
+<!-- creazione quadrato che contiene le informazioni della pagina -->
+        <div id="quadrato">
+<!-- tag contenente il Logo e il l'intestazione della pagina -->
+             <header>
+                 <img src="logo.png" alt=""> <br>
+                 <h1>Taking Booleaners from A to B</h1>
+            </header>
+<!-- tag contenente i pulsanti di navigazione            -->
+            <nav>
+                <button type="submit">Prenota</button>
+                <button type="submit">Termina Prenotazione</button>
+                <button type="submit">Accendi Luci</button>
+            </nav>
+<!-- tag contenente la parte principale della pagina             -->
+            <main>
+<!-- ho diviso i vari monopattini in singoli selection                 -->
+                <section>
+                    <!-- ho usato un div per contenere il nome del monopattino, abbreviato in nomeM e la checkbox  -->
+                    <div>
+                        <input type="checkbox">
+                        <span class="nomeM">Monopattino Gino22</span>
+                    </div>
+                    <!-- uno span per il nome della via interrompendo la linea con un br -->
+                    <span>↦ Via Guadalametri - a 220 metri da te</span> <br>
+                    <!-- uno span per scrivere stato carica e un div per creare la barra che rappresenta la carica della batteria -->
+                    <span>Stato carica:</span>
+                    <div class="statocarica medio"></div>
+                </section>
+                <!-- ho copiato e incollato tutto cambiando soltanto piccole cose -->
+                <section>
+                    <div>
+                        <input type="checkbox">
+                        <span class="nomeM">Monopattino Mike24</span>
+                    </div>
+                    <span>↦ Via Ricciardoni - a 420 metri da te</span> <br>
+                    <span>Stato carica:</span>
+                    <div class="statocarica carico"></div>
+                </section>
+                <section>
+                    <div>
+                        <input type="checkbox">
+                        <span class="nomeM">Monopattino Fede154</span>
+                    </div>
+                    <span>↦ Via Mentarini - a 490 metri da te</span> <br>
+                    <span>Stato carica:</span>
+                    <div class="statocarica scarico"></div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
